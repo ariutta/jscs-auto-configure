@@ -1,0 +1,23 @@
+{
+  "name": "jscs-auto-configure",
+  "version": "1.0.0",
+  "description": "Generate a custom JSCS ruleset, based on existing code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jscs"
+  ],
+  "author": "Anders Riutta",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.4.0",
+    "gulp-util": "^3.0.4",
+    "highland": "^2.4.0",
+    "jscs": "^1.11.3",
+    "object-assign": "^2.0.0",
+    "through2": "^0.6.3"
+  }
+}
