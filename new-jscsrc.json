@@ -1,0 +1,70 @@
+{
+  "preset": "mdcs",
+  "disallowPaddingNewlinesInBlocks": true,
+  "disallowSpaceAfterKeywords": [
+    "if",
+    "for",
+    "switch",
+    "catch"
+  ],
+  "requireSpaceAfterKeywords": [
+    "else",
+    "while",
+    "do",
+    "return",
+    "try"
+  ],
+  "disallowSpacesInConditionalExpression": {
+    "afterTest": true,
+    "beforeConsequent": true,
+    "afterConsequent": true,
+    "beforeAlternate": true
+  },
+  "disallowSpaceBeforeBinaryOperators": [
+    "+",
+    "/",
+    "*",
+    "<"
+  ],
+  "requireSpaceBeforeBinaryOperators": [
+    "-",
+    "=",
+    "==",
+    "===",
+    "!=",
+    "!==",
+    ">",
+    ">=",
+    "<="
+  ],
+  "disallowSpaceAfterBinaryOperators": [
+    "+",
+    "/",
+    "*",
+    "<"
+  ],
+  "requireSpaceAfterBinaryOperators": [
+    "-",
+    "=",
+    "==",
+    "===",
+    "!=",
+    "!==",
+    ">",
+    ">=",
+    "<="
+  ],
+  "disallowSpacesInsideObjectBrackets": "all",
+  "requireSpacesInsideArrayBrackets": "all",
+  "disallowSpaceBetweenArguments": true,
+  "disallowSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "disallowSpaceBeforeBlockStatements": true,
+  "disallowSpaceBeforePostfixUnaryOperators": [
+    "++"
+  ],
+  "requireSpaceBeforePostfixUnaryOperators": [
+    "--"
+  ]
+}
