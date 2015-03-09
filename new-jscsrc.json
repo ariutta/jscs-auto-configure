@@ -1,10 +1,8 @@
 {
-  "preset": "mdcs",
-  "disallowPaddingNewlinesInBlocks": true,
-  "disallowSpaceAfterKeywords": [
-    "if",
-    "for",
-    "switch",
+  "requireCurlyBraces": [
+    "while",
+    "do",
+    "try",
     "catch"
   ],
   "requireSpaceAfterKeywords": [
@@ -14,17 +12,25 @@
     "return",
     "try"
   ],
-  "disallowSpacesInConditionalExpression": {
-    "afterTest": true,
-    "beforeConsequent": true,
-    "afterConsequent": true,
-    "beforeAlternate": true
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
   },
-  "disallowSpaceBeforeBinaryOperators": [
-    "+",
-    "/",
-    "*",
-    "<"
+  "requireSpacesInsideArrayBrackets": "all",
+  "requireSpaceBeforeBlockStatements": true,
+  "requireSpacesInForStatement": true,
+  "disallowKeywords": [
+    "with"
+  ],
+  "requireLineFeedAtFileEnd": true,
+  "validateLineBreaks": "LF",
+  "validateIndentation": "\t",
+  "requireSpaceAfterPrefixUnaryOperators": [
+    "++",
+    "--"
+  ],
+  "requireSpaceBetweenArguments": true,
+  "requireSpaceBeforePostfixUnaryOperators": [
+    "--"
   ],
   "requireSpaceBeforeBinaryOperators": [
     "-",
@@ -37,12 +43,6 @@
     ">=",
     "<="
   ],
-  "disallowSpaceAfterBinaryOperators": [
-    "+",
-    "/",
-    "*",
-    "<"
-  ],
   "requireSpaceAfterBinaryOperators": [
     "-",
     "=",
@@ -54,17 +54,29 @@
     ">=",
     "<="
   ],
-  "disallowSpacesInsideObjectBrackets": "all",
-  "requireSpacesInsideArrayBrackets": "all",
-  "disallowSpaceBetweenArguments": true,
-  "disallowSpacesInFunctionExpression": {
-    "beforeOpeningCurlyBrace": true
+  "disallowSpaceBeforeBinaryOperators": [
+    ",",
+    "+",
+    "/",
+    "*",
+    "<"
+  ],
+  "disallowSpaceAfterKeywords": [
+    "if",
+    "for",
+    "switch",
+    "catch"
+  ],
+  "disallowSpacesInConditionalExpression": {
+    "beforeAlternate": true
   },
-  "disallowSpaceBeforeBlockStatements": true,
+  "disallowSpaceAfterBinaryOperators": [
+    "+",
+    "/",
+    "*",
+    "<"
+  ],
   "disallowSpaceBeforePostfixUnaryOperators": [
     "++"
-  ],
-  "requireSpaceBeforePostfixUnaryOperators": [
-    "--"
   ]
 }
