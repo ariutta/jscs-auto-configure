@@ -9,19 +9,9 @@ var option = {
 };
 
 getJscsErrors(option, inputPath)
-  /*
-  .sequence()
-  .filter(function(error) {
-    // Make sure the rule is supported
-    return !error.message ||
-        error.message.indexOf('Unsupported rule') === -1;
-  })
-  //*/
   .map(function(errors) {
     var errorsString = JSON.stringify(errors);
-    console.log('test passes?');
-    console.log(expectedResult === errorsString);
-    fs.writeFileSync(resultPath, errorsString);
-    return errorsString;
+    var result = 'Test passes? ' + (expectedResult === errorsString) + '\r\n';
+    return result;
   })
   .pipe(process.stdout);

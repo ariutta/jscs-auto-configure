@@ -1,6 +1,6 @@
 var jscsAutoconfigure = require('../../lib/index');
 
-var inputPath = '../OpenIDConnect/index.js';
+var inputPath = __dirname + '/../input-data/open-id-connect.js';
 var outputFile = './new-jscsrc.json';
 
 jscsAutoconfigure(inputPath, outputFile);
